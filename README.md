@@ -1,2 +1,5 @@
 # gmfetch
-gmfetch - yet another fetch
+Yet Another Fetch with cool design
+
+
+
