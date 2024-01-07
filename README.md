@@ -2,7 +2,7 @@
   Gimirik Fetch
 </h1>
 <div align="center">
-<img src="https://img.shields.io/badge/telegram-%2367b0e8?style=for-the-badge&link=https%3A%2F%2Ft.me%2Ftmasikt" />
+<a href="https://t.me/tmasikt"><img src="https://img.shields.io/badge/telegram-%2367b0e8?style=for-the-badge&link=https%3A%2F%2Ft.me%2Ftmasikt" /></a>
   <img src="https://img.shields.io/badge/discord-tmasik.t-%237289da?style=for-the-badge&labelColor=1e2528&color=7289da" />
   <img src="https://img.shields.io/github/stars/tmasikt/gmfetch?color=e57474&labelColor=1e2528&style=for-the-badge">
 </div>
