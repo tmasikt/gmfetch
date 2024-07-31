@@ -149,12 +149,13 @@ pkgs=$(echo $(get_pkg_count) | python -c "distro = input();print(distro.ljust(13
 
 disk=$(echo $(get_storage_info) | python -c "distro = input();print(distro.ljust(13, ' '))")
 
+user=$(echo $(echo "$c4$(whoami)$c1@$c6$(hostname)") | python -c "distro = input();print(distro.ljust(62, ' '))")
 
 
 echo -e "$c2▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄$c4▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄$c0"
 echo -e "$c2█                                       $c4█"
 
-echo -e "$c1█             $c1\e[3m\e[4mGimirikFetch\e[0m$c0              $c1█"
+echo -e "$c1█             $c1\e[3m\e[4mTaLyamFetch\e[0m$c0               $c1█"
 echo -e "$c1█       who                             $c1█"
 echo -e "$c5█      even       $c5    os:$c4 \e[3m$distro \e[0m$c5█"
 echo -e "$c5█     cares        $c5 disk:$c4 \e[3m$disk \e[0m$c5█"
@@ -163,7 +164,7 @@ echo -e "$c7█      your        $c5 pkgs:$c7 \e[3m$pkgs \e[0m$c7█"
 
 echo -e "$c6█        os      $c5 uptime:$c6 \e[3m$uptime \e[0m$c6█"
 echo -e "█                                       █"
-echo -e "\033[1;30m█             $c6\e[3m„мне ленцово“             $c3█"
+echo -e "\033[1;30m█      \e[3m $user$c3█"
 
 echo -e "\033[1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄$c3▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
 
